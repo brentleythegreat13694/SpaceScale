@@ -12,6 +12,10 @@ int main(){
     scanf("%d", &choice);
 
     // Calculate weight depending on what planet you chosen
+    if (EarthWeight == 0){
+        printf("Sorry can not give new weight since your EarthWeight is set to 0");
+        return 1;
+    }
     switch (choice) {
         case 1:
                total = EarthWeight * 0.38;
