@@ -13,7 +13,7 @@ You need a C complier installed (like **GCC** via MinGW). You can check if you h
 For windows systems the terminal is either **powershell** or **Command Prompt** so search up **Command Prompt** on your windows machine then run it as admin.
 
 ### 3. Navigate to folder
-Type in your **Powershell** or **Command Prompt** '''cd "C:\Users\Yourusernamehere\Downloads\SpaceScale\src"
+Type in your **Powershell** or **Command Prompt** cd "C:\Users\Yourusernamehere\Downloads\SpaceScale\src"
 
 ### 4. Run the program
-Type this in your **Powershell** or **Command Prompt** '''gcc main.c -o SpaceScale.exe then to run it is '''.\SpaceScale.exe
+Type this in your **Powershell** or **Command Prompt** gcc main.c -o SpaceScale.exe then to run it is .\SpaceScale.exe
